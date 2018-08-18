@@ -3,29 +3,141 @@
   <head>
     <meta charset="utf-8">
     <title>Kiarieh's Quiz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
   </head>
   <body>
+    <form id="quizy">
+    <div class="container">
+    <div class="centered">
     <h1>Kiarieh's Quiz</h1>
-    <p>This easy-to-answer quiz provides you with simple questions that test your knowledge</p>
-    <h2>It's to build your growth because WE care</h2>
+    <p>This easy-to-answer quiz provides you with simple questions that test your level of long term memory</p>
+    <h2>It's to enhance your mental growth because WE care</h2>
+    </div>
+    <p><span class="begin">Click to begin</span> The Quiz</p>
+    <br>
+    <br>
+    <form id="add">
+    <div class="form-group"> <label>Enter your name</label> <input class="form-control" type="text"> </div>
+    </form>
+    <p>Which of the following is used when styling a webpage?</p>
+    <div class="well">
     <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="chocolate">
-          Chocolate
+          <input type="radio" name="num1" value="0">
+          HTML
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="vanilla">
-          Vanilla
+          <input type="radio" name="num1" value="2">
+          CSS
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="flavor" value="cookiesandcream">
-          Cookies & Cream
+          <input type="radio" name="num1" value="0">
+          JavaScript
         </label>
       </div>
+    </div>
+      <p>What name is given to a variable that is declared inside a function?</p>
+      <div class="well">
+      <div class="radio">
+          <label>
+            <input type="radio" name="num2" value="0">
+            Inline scope
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="num2" value="0">
+            Global Scope
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="num2" value="2">
+            Local Scope
+          </label>
+        </div>
+      </div>
+        <p>According to JavaScript, what does the term D.R.Y mean in one word?</p>
+        <div class="well">
+        <div class="radio">
+            <label>
+              <input type="radio" name="num3" value="0">
+            Defactoring
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="num3" value="0">
+              Transversing
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+            <input type="radio" name="num3" value="2">
+              Refactoring
+            </label>
+          </div>
+        </div>
+        <p>Considering user-interface and business logic, where does that the below code belong?</p>
+        <br>
+        <p class="gift">var add = function(number1, number2) {</p>
+          <p class="gift">  return number1 + number2;</p>
+        <p class="gift">};</p>
+        <div class="well">
+        <div class="radio">
+            <label>
+              <input type="radio" name="num4" value="0">
+              Business Logic
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="num4" value="2">
+              User Interface
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="num4" value="0">
+              Function Logic
+            </label>
+          </div>
+        </div>
+        <p>What name is given to a variable that is declared without using the term "Var"?</p>
+        <div class="well">
+        <div class="radio">
+            <label>
+              <input type="radio" name="num5" value="2">
+              Unscoped variables
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="num5" value="0">
+              Undefined variables
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="num4" value="0">
+              Undeclared variables
+            </label>
+          </div>
+        </div>
+    </div>
+    <button type="submit" class="buttons">See Result</button>
+
+  <div class ="scores">
+    <p><span id="shows"></span></p>
+  </div>
+  </form>
 
   </body>
 </html>

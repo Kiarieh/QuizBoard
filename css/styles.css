@@ -1,0 +1,14 @@
+body {
+    font-family: fantasy;
+}
+.centered{
+  text-align: center;
+}
+.gift {
+  color: blue;
+  font-style: italic;
+}
+.button {
+  font-size: 30px;
+  text-align: center;
+}
