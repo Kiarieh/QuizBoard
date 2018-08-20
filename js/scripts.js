@@ -1,12 +1,8 @@
 var quizAnswers = function(one, two, three, four, five){
 return one + two + three + four + five;
-
-
 }
 
 $(document).ready(function(){
-  $(".begin").click(function(){
-    $("#quizy").fadeToggle("slow");
   });
 
   $("form#quizy").submit(function(event){
@@ -17,9 +13,10 @@ $(document).ready(function(){
     var number5 = parseInt($("input:radio[name=num5]:checked").val());
     var result = quizAnswers(number1, number2, number3, number4, number5);
 
-    $("#shows").text("Your total score is" + result + "out of 10");
+    var finals = $("#shows").text("#name"  + "Your total score is" + result + "out of 10");
 
     event.preventDefault();
     $(".scores").show();
+    alert (finals)
   });
 });
