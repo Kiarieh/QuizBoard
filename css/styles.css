@@ -21,3 +21,7 @@ body {
 #quizy{
   display:show;
 }
+#name {
+  color: orange;
+  font-size: 18px;
+}
