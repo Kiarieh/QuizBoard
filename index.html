@@ -5,23 +5,23 @@
     <title>Kiarieh's Quiz</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
      <link href="css/styles.css" rel="stylesheet" type="text/css">
-     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
      <script src="js/scripts.js"></script>
   </head>
   <body>
-
     <div class="container">
     <div class="centered">
     <div class="imagery">
     <h1>Kiarieh's Quiz</h1>
     <p>This easy-to-answer quiz provides you with simple questions that test your level of long term memory</p>
     <h2>It's to enhance your mental growth because WE care</h2>
+    </div>
+    </div>
     <br>
     <br>
     <form id="quizy">
     <div class="form-group">
     <label>Enter your name</label> <input id = "name" class="form-control" type="text"> </div>
-    </div>
     <br>
     <p>Which of the following is used when styling a webpage?</p>
     <div class="well">
@@ -130,16 +130,18 @@
               <input type="radio" name="num4" value="0">
               Undeclared variables
             </label>
+
         </div>
     </div>
-    <button id = "submit" type="submit" class="submit">See Result</button>
+    <button id = "submit" type="submit">See Result</button>
+    </form>
   </div>
-</div>
+
 
   <div class ="scores">
+    <h1>Scores</h2>
     <p> <span id="shows"> </span></p>
   </div>
-  </form>
 
   </body>
 </html>
