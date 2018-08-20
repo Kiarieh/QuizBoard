@@ -13,7 +13,7 @@ $(document).ready(function(){
     var number5 = $("input:radio[name=num5]:checked").val();
     var result = quizAnswers(number1,number2,number3,number4,number5);
     $("#name").append(nameDisplay);
-    $("#shows").text(nameDisplay  + "Your total score is:" + result + "out of 10");
+    $("#shows").text(nameDisplay  + " Your total score is:" + result + "out of 10");
 
     $("#quizy").hide();
     $(".scores").show();
