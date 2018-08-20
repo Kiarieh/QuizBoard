@@ -14,7 +14,7 @@ The form will only be submitted if all the questions are answered
 
 #Deployment
 
-follow link https://github.com/Vynnel/Quizboard
+follow link https://github.com/Kiarieh/Quizboard
 
 #Built With
 Hyper-Text MarkUp Language
